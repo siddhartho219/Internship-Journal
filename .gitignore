@@ -1,0 +1,25 @@
+# OS junk
+.DS_Store
+Thumbs.db
+.freebuff
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Env & secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Local-only staging (never push raw brain dumps)
+raw-inputs/
+drafts/
+*.local.md
+
+# Tooling (if added later)
+node_modules/
+.venv/
+__pycache__/
